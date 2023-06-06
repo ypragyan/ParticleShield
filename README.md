@@ -26,13 +26,14 @@ This Python code provides a set of functions to perform various calculations rel
 2. Install the required dependencies by running the following command:
 
    ```shell
-   pip install numpy matplotlib
+   pip install math, numpy as np, matplotlib.pyplot as plt
+   
 3. Download the ParticleShield library and add it to your project.
 
 
 ## Usage
 To use the ParticleShield library, import the necessary functions and utilities in your Python code. Here's an example:
-
+```
 import particleshield
 
 #Calculate the half-value layer
@@ -52,6 +53,7 @@ particleshield.generate_bragg_curve(alpha, p, shallowest_depth, deepest_depth)
 
 #Calculate radiation attenuation
 attenuated_intensity = particleshield.calculate_attenuation(I0, mu, x)
+```
 
 ##License
 This code is released under the MIT License. See LICENSE for details.
