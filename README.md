@@ -55,5 +55,5 @@ particleshield.generate_bragg_curve(alpha, p, shallowest_depth, deepest_depth)
 attenuated_intensity = particleshield.calculate_attenuation(I0, mu, x)
 ```
 
-##License
-This code is released under the MIT License. See LICENSE for details.
+## License
+This code is released under the MIT License. 
