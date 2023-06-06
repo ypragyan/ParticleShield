@@ -29,27 +29,28 @@ This Python code provides a set of functions to perform various calculations rel
    pip install numpy matplotlib
 3. Download the ParticleShield library and add it to your project.
 
-##Usage
+
+## Usage
 To use the ParticleShield library, import the necessary functions and utilities in your Python code. Here's an example:
 
 import particleshield
 
-# Calculate the half-value layer
+#Calculate the half-value layer
 hvl = particleshield.calculate_hvl(initial_intensity, attenuation_factor)
 
-# Calculate the buildup factor
+#Calculate the buildup factor
 B = particleshield.calculate_buildup_factor(penetration_depth, attenuation_factor)
 
-# Calculate the dose rate
+#Calculate the dose rate
 dose_rate = particleshield.calculate_dose_rate(intensity, conversion_factor, time, distance)
 
-# Calculate energy loss using the Bethe-Bloch equation
+#Calculate energy loss using the Bethe-Bloch equation
 energy_loss = particleshield.bethe_bloch(energy, z, A, Z, I)
 
-# Generate the Bragg curve for protons in air
+#Generate the Bragg curve for protons in air
 particleshield.generate_bragg_curve(alpha, p, shallowest_depth, deepest_depth)
 
-# Calculate radiation attenuation
+#Calculate radiation attenuation
 attenuated_intensity = particleshield.calculate_attenuation(I0, mu, x)
 
 ##License
