@@ -33,7 +33,7 @@ This Python code provides a set of functions to perform various calculations rel
 
 ## Usage
 To use the ParticleShield library, import the necessary functions and utilities in your Python code. Here's an example:
-```
+```python
 import particleshield
 
 #Calculate the half-value layer
