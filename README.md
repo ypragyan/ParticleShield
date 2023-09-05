@@ -60,7 +60,7 @@ The Bethe-Bloch equation is used to calculate the energy loss of charged particl
 
 The Beth-Bloch equation:
 <!-- Adjust the image size and format -->
-![]("https://github.com/ypragyan/ParticleShield/blob/main/bethbloch.png")
+![](https://github.com/ypragyan/ParticleShield/blob/main/bethbloch.png)
 
 
 
