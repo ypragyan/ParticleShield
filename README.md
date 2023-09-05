@@ -93,6 +93,4 @@ generate_bragg_curve(alpha, p, shallowest_depth, deepest_depth)
 ```
 Bragg curve for protons in air:
 
-<div style="text-align:center;">
-  <img src="https://github.com/ypragyan/ParticleShield/blob/main/bragcurve" alt="Bragg Curve" width="500" height="400" style="border:1px solid black; padding:10px;">
-</div>
+![](https://github.com/ypragyan/ParticleShield/blob/main/bragcurve.png)
