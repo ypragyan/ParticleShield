@@ -58,12 +58,6 @@ attenuated_intensity = particleShield.calculate_attenuation(I0, mu, x)
 ### Beth-Bloch equation
 The Bethe-Bloch equation is used to calculate the energy loss of charged particles (e.g., electrons, protons, alpha particles) as they pass through a material. It describes how these particles lose energy through ionization and excitation of atoms in the material.
 
-The Beth-Bloch equation:
-<!-- Adjust the image size and format -->
-![](https://github.com/ypragyan/ParticleShield/blob/main/bethbloch.png)
-
-
-
 
 ```python
 #Calculate energy loss using the Bethe-Bloch equation for Protons in Air
