@@ -61,7 +61,7 @@ The Bethe-Bloch equation is used to calculate the energy loss of charged particl
 The Beth-Bloch equation:
 <!-- Adjust the image size and format -->
 <div style="text-align:center;">
-  <img src="particleShield\src\bethbloch.png" alt="Bethe-Bloch Equation" width="500" height="100" style="border:1px solid black; padding:10px;">
+  <img src="[particleShield\src\bethbloch.png](https://github.com/ypragyan/ParticleShield/blob/main/bethbloch.png)" alt="Bethe-Bloch Equation" width="500" height="100" style="border:1px solid black; padding:10px;">
 </div>
 
 
@@ -94,5 +94,5 @@ generate_bragg_curve(alpha, p, shallowest_depth, deepest_depth)
 Bragg curve for protons in air:
 
 <div style="text-align:center;">
-  <img src="particleShield\src\bragcurve.png" alt="Bragg Curve" width="500" height="400" style="border:1px solid black; padding:10px;">
+  <img src="https://github.com/ypragyan/ParticleShield/blob/main/brag.curve" alt="Bragg Curve" width="500" height="400" style="border:1px solid black; padding:10px;">
 </div>
